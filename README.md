@@ -1,5 +1,4 @@
-# BME280
-BME280/BMP280 driver for ESP32
+# BME280/BMP280 I2C driver for ESP32 
 
 Async mode example:
 ```c
