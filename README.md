@@ -1,6 +1,7 @@
 # BME280/BMP280 I2C driver for ESP32 
+Clone this repository into components folder of ESP IDF project and use:
 
-Async mode example:
+## Async mode example:
 ```c
 #include <stdio.h>
 #include "freertos/FreeRTOS.h"
@@ -59,7 +60,7 @@ void app_main(void)
 ```
 
 
-Sync mode example:
+## Sync mode example:
 ```c
 #include <stdio.h>
 #include "freertos/FreeRTOS.h"
